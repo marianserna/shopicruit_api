@@ -6,7 +6,7 @@ class ProductPage
   end
 
   def total_page_dollars
-    total_dollars = 0
+    total_dollars = 0.0
 
     data['products'].each do |product|
       if product['product_type'] == 'Clock' || product['product_type'] == 'Watch'
